@@ -1,0 +1,28 @@
+function hello(n integer, y integer) {
+    if (n < 5) {
+        return true;
+    } else {
+        return false;
+    } fi
+}
+
+@
+    integer index; [*to keep track of index*]
+    boolean even; [*this is another comment*]
+
+    index = 0;
+    count = 0;
+    while (hello(index, 7) == true) {
+        put(6);
+        index = index + 1;
+        if ((index / 2) == 0 ) {
+            even = true;
+        } else {
+            even = false;
+        } fi
+    }
+
+@
+
+
+
